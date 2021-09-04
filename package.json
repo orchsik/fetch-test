@@ -1,15 +1,19 @@
 {
   "name": "zzz",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fetch-blob": "^3.1.2",
+    "node-fetch": "^3.0.0",
     "nodemon": "^2.0.12"
   }
 }
